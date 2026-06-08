@@ -1,0 +1,53 @@
+# Visual Studio temporary files
+.vs/
+.vscode/
+*.vsix
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+**/packages/*
+
+# Visual Studio cache/options
+*.sln.docstates
+*.user
+*.userosscache
+*.sln.cache
+*.suo
+*.db
+*.db-journal
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# File-based project format
+*.ncb
+*.opendb
+*.sdf
+*.cachefile
+*.VC.db
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# VS Code
+.vscode/
