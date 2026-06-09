@@ -11,7 +11,7 @@ class Program
 
         if (!System.IO.File.Exists(docxPath))
         {
-            Console.WriteLine("Файл не найден!");
+            Console.WriteLine("Файл не найден");
             return;
         }
 
@@ -20,9 +20,7 @@ class Program
 
         try
         {
-            // Загружаем DOCX
             Document doc = new Document(docxPath);
-            // Сохраняем как PDF
             doc.Save(pdfPath, SaveFormat.Pdf);
             Console.WriteLine("Конвертация завершена успешно!");
         }
