@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlsxToPdfConverter", "XlsxToPdfConverter\XlsxToPdfConverter.csproj", "{E6BBBD89-00E5-471D-989E-155F14FFF825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BBBD89-00E5-471D-989E-155F14FFF825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BBBD89-00E5-471D-989E-155F14FFF825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BBBD89-00E5-471D-989E-155F14FFF825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BBBD89-00E5-471D-989E-155F14FFF825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64FD101-6D53-405C-8CFB-204B7F53EC8A}
+	EndGlobalSection
+EndGlobal

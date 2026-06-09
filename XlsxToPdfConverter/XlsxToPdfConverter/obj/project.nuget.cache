@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "73lI/xfMd/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MarkovaDM\\Desktop\\convert\\XlsxToPdfConverter\\XlsxToPdfConverter\\XlsxToPdfConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\itextsharp\\5.5.13.5\\itextsharp.5.5.13.5.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Пакет \"iTextSharp 5.5.13.5\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "projectPath": "C:\\Users\\MarkovaDM\\Desktop\\convert\\XlsxToPdfConverter\\XlsxToPdfConverter\\XlsxToPdfConverter.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\MarkovaDM\\Desktop\\convert\\XlsxToPdfConverter\\XlsxToPdfConverter\\XlsxToPdfConverter.csproj",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
