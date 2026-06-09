@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XlsxToPdfConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8f6d585bb713a9c545f121b17076bddb06312a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("XlsxToPdfConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XlsxToPdfConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,3 +24,4 @@ C:\Users\MarkovaDM\Desktop\convert\XlsxToPdfConverter\XlsxToPdfConverter\obj\Deb
 C:\Users\MarkovaDM\Desktop\convert\XlsxToPdfConverter\XlsxToPdfConverter\obj\Debug\net8.0\XlsxToPdfConverter.pdb
 C:\Users\MarkovaDM\Desktop\convert\XlsxToPdfConverter\XlsxToPdfConverter\obj\Debug\net8.0\XlsxToPdfConverter.genruntimeconfig.cache
 C:\Users\MarkovaDM\Desktop\convert\XlsxToPdfConverter\XlsxToPdfConverter\obj\Debug\net8.0\ref\XlsxToPdfConverter.dll
+C:\Users\MarkovaDM\Desktop\convert\XlsxToPdfConverter\XlsxToPdfConverter\obj\Debug\net8.0\XlsxToPdfConverter.sourcelink.json

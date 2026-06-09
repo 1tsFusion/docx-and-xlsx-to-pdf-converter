@@ -10,11 +10,11 @@ class Program
     {
         try
         {
-            // Укажите пути к файлам
-            string xlsxPath = @"input.xlsx"; // путь к исходному XLSX
-            string pdfPath = @"output.pdf";  // путь для сохранения PDF
+            Console.WriteLine("Введите путь к файлу эксель");
+            string xlsxPath = Console.ReadLine(); // путь к исходному XLSX
+            Console.WriteLine("Введите путь куда сохранить файл пдф");
+            string pdfPath = Console.ReadLine();  // путь для сохранения PDF
 
-            // Проверка существования файла
             if (!File.Exists(xlsxPath))
             {
                 Console.WriteLine("Файл XLSX не найден!");
@@ -32,7 +32,6 @@ class Program
 
     static void ConvertXlsxToPdf(string xlsxPath, string pdfPath)
     {
-        // Открываем XLSX файл
         using (var workbook = new XLWorkbook(xlsxPath))
         {
             using (var document = new Document())
@@ -43,18 +42,14 @@ class Program
                     {
                         document.Open();
 
-                        // Обрабатываем каждый лист
                         foreach (var worksheet in workbook.Worksheets)
                         {
-                            // Заголовок — имя листа
                             var title = new Paragraph(worksheet.Name, FontFactory.GetFont("Arial", 12, Font.BOLD));
                             document.Add(title);
 
-                            // Создаём таблицу для данных листа
                             var table = new PdfPTable(worksheet.LastCellUsed().Address.ColumnNumber);
                             table.WidthPercentage = 100;
 
-                            // Заполняем таблицу данными
                             foreach (var row in worksheet.RowsUsed())
                             {
                                 for (int col = 1; col <= worksheet.LastCellUsed().Address.ColumnNumber; col++)
@@ -63,11 +58,9 @@ class Program
                                     table.AddCell(cellValue);
                                 }
                             }
-
                             document.Add(table);
-                            document.Add(new Paragraph("\n")); // разделитель между листами
+                            document.Add(new Paragraph("\n"));
                         }
-
                         document.Close();
                     }
                 }
