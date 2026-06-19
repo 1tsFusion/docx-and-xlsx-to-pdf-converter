@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "73lI/xfMd/U=",
+  "dgSpecHash": "nMTsOZALFDc=",
   "success": true,
   "projectFilePath": "C:\\Users\\MarkovaDM\\Desktop\\convert\\XlsxToPdfConverter\\XlsxToPdfConverter\\XlsxToPdfConverter.csproj",
   "expectedPackageFiles": [
@@ -11,9 +11,22 @@
     "C:\\Users\\MarkovaDM\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
     "C:\\Users\\MarkovaDM\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
     "C:\\Users\\MarkovaDM\\.nuget\\packages\\itextsharp\\5.5.13.5\\itextsharp.5.5.13.5.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.2.3\\microsoft.testing.extensions.telemetry.2.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.2.3\\microsoft.testing.extensions.trxreport.abstractions.2.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\2.2.3\\microsoft.testing.extensions.vstestbridge.2.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.testing.platform\\2.2.3\\microsoft.testing.platform.2.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.2.3\\microsoft.testing.platform.msbuild.2.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.3.0\\microsoft.testplatform.objectmodel.18.3.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\mstest.analyzers\\4.2.3\\mstest.analyzers.4.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\mstest.testadapter\\4.2.3\\mstest.testadapter.4.2.3.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\mstest.testframework\\4.2.3\\mstest.testframework.4.2.3.nupkg.sha512",
     "C:\\Users\\MarkovaDM\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
     "C:\\Users\\MarkovaDM\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
-    "C:\\Users\\MarkovaDM\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
+    "C:\\Users\\MarkovaDM\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512"
   ],
   "logs": [
     {
