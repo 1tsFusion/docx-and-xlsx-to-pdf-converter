@@ -14,10 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocxToPdfConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10c6fbccae430e0bf6fe0a5fdc4c5e639b96b519")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3aeeddcd106d9aa46da00047935004a8f40a3957")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocxToPdfConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocxToPdfConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadata("Microsoft.Testing.Platform.Application", "True")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

@@ -1,32 +1,35 @@
-﻿using System;
-using Aspose.Words;
-
-class Program
+﻿namespace DocxToPdfConverter
 {
-    static void Main(string[] args)
+    using System;
+    using Aspose.Words;
+
+    class Program
     {
-        Console.WriteLine("Конвертер DOCX в PDF");
-        Console.Write("Введите путь к DOCX-файлу: ");
-        string docxPath = Console.ReadLine();
-
-        if (!System.IO.File.Exists(docxPath))
+        static void Main(string[] args)
         {
-            Console.WriteLine("Файл не найден");
-            return;
-        }
+            Console.WriteLine("Конвертер DOCX в PDF");
+            Console.Write("Введите путь к DOCX-файлу: ");
+            string docxPath = Console.ReadLine();
 
-        Console.Write("Введите путь для сохранения PDF: ");
-        string pdfPath = Console.ReadLine();
+            if (!System.IO.File.Exists(docxPath))
+            {
+                Console.WriteLine("Файл не найден");
+                return;
+            }
 
-        try
-        {
-            Document doc = new Document(docxPath);
-            doc.Save(pdfPath, SaveFormat.Pdf);
-            Console.WriteLine("Конвертация завершена успешно!");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Ошибка: {ex.Message}");
+            Console.Write("Введите путь для сохранения PDF: ");
+            string pdfPath = Console.ReadLine();
+
+            try
+            {
+                Document doc = new Document(docxPath);
+                doc.Save(pdfPath, SaveFormat.Pdf);
+                Console.WriteLine("Конвертация завершена успешно!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
         }
     }
 }
